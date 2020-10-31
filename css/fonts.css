@@ -13,7 +13,6 @@
 }
 
 @@font-face {
-  PTSerif-Bold
   font-family: "PTSerif-Bold";
     src: url("./fonts/PTSerif-Bold.woff") format("woff");
     src: url("./fonts/PTSerif-Bold.woff2") format("woff2");
