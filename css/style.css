@@ -1,22 +1,23 @@
 .header__item {
-  font-family: 'MuseoSansCyrl';
+  font-family: 'MuseoSansCyrl', sans-serif;
   font-style: 700;
   font-size: 16px;
 }
 
 .intro__text {
-  font-family: 'MuseoSansCyrl';
+  font-family: 'MuseoSansCyrl', sans-serif;
   font-style: 500;
   font-size: 16px;
 }
 
 .intro__btn {
-  font-family: 'MuseoSansCyrl';
+  font-family: 'MuseoSansCyrl', sans-serif;
   font-style: 700;
   font-size: 30px;
 }
 
-.intro__title, .intro__subtitle {
-  font-family: 'PT Serif';
+.intro__title,
+.intro__subtitle {
+  font-family: 'PT Serif', sans-serif;
   font-style: 16px;
 }
