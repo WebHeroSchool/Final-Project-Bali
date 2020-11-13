@@ -1,23 +1,143 @@
-.header__item {
-  font-family: 'MuseoSansCyrl', sans-serif;
-  font-style: 700;
-  font-size: 16px;
+.wrapper {
+  background: url(../img/background.png) no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: Museo, Arial, sans-serif;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.header__logo {
+  width: 146.18px;
+  height: 54.84px;
+  margin-right: 91px;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 90%;
+  height: 21.5vh;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.stumb {
+  flex: 1;
+}
+
+.header__nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav__item {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  cursor: pointer;
+  transition: color 2s ease-out;
+  padding: 0 19px;
+  white-space: nowrap;
+}
+
+.header-nav__item:hover {
+  color: gray;
+}
+
+.intro {
+  display: flex;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 100%;
+}
+
+.intro__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+.intro__title {
+  color: white;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 200px;
+  opacity: 0.4;
+}
+
+.intro__subtitle {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: -145px;
+  margin-bottom: 8.44px;
+  font-size: 70px;
+  color: white;
+  padding-left: 82.93px;
 }
 
 .intro__text {
-  font-family: 'MuseoSansCyrl', sans-serif;
-  font-style: 500;
-  font-size: 16px;
+  font-size: 22px;
+  color: #f8eee4;
+  margin: 25px 0;
+  width: 29vw;
 }
 
 .intro__btn {
-  font-family: 'MuseoSansCyrl', sans-serif;
-  font-style: 700;
-  font-size: 30px;
+  width: 293.76px;
+  height: 61.88px;
+  background: #d4bea3;
+  border-radius: 48px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: background 1s ease-out;
+  outline: none;
+  margin-right: 310px;
 }
 
-.intro__title,
-.intro__subtitle {
-  font-family: 'PT Serif', sans-serif;
-  font-style: 16px;
+.intro__btn:hover {
+  background: #cab437;
+}
+
+.intro__image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.img__item-Bali {
+  height: 410px;
+}
+
+.img__item-Indonesia {
+  height: 370px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.img__item-field {
+  height: 370px;
 }
