@@ -4,7 +4,7 @@
   background-position: top;
   height: 100vh;
   margin: 0 auto;
-  font-family: MuseoSansCyrl, PT Serif, sans-serif;
+  font-family: "MuseoSansCyrl", "PT Serif", sans-serif;
   min-width: 100%;
   min-height: 100%;
   overflow: hidden;
@@ -229,34 +229,34 @@
   display: none;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__nav {
+.mobile-nav__checkbox:checked ~ .mobile-nav__nav {
   opacity: 1;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__container {
+.mobile-nav__checkbox:checked ~ .mobile-nav__container {
   height: 100%;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn {
   margin-right: 79px;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
   background: transparent;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::before,
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::after {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before,
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   top: 0;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::after {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   background-color: #172f27;
 }
 
-.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::before {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   background-color: #172f27;
@@ -331,11 +331,11 @@
   }
 
   .wrap-logo {
-    flex: .5;
+    flex: 0.5;
   }
 
   .desktop-nav {
-    flex: .5;
+    flex: 0.5;
   }
 
   .desktop-nav__item {
@@ -744,13 +744,13 @@
 }
 
 @media (max-width: 675px) {
-  .mobile-nav__checkbox:checked~.mobile-nav__btn {
+  .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
     margin-right: 22px;
   }
 }
 
 @media (max-width: 550px) {
-  .mobile-nav__checkbox:checked~.mobile-nav__btn {
+  .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
     margin-right: 0;
   }
 }
