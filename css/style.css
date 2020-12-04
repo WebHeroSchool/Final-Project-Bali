@@ -5,8 +5,8 @@
   height: 100vh;
   margin: 0 auto;
   font-family: "MuseoSansCyrl", "PT Serif", sans-serif;
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 1920px;
+  min-height: 375px;
   overflow: hidden;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .header {
-  font-family: MuseoSansCyrl, sans-serif;
+  font-family: "MuseoSansCyrl", sans-serif;
   font-weight: 700;
   margin: 0 auto;
   max-width: 90%;
@@ -140,7 +140,7 @@
   align-items: center;
   justify-content: flex-end;
   padding-right: 16px;
-  z-index: 9999999;
+  z-index: 1;
 }
 
 .mobile-nav__btn {
@@ -152,7 +152,7 @@
   height: 39px;
   cursor: pointer;
   transition: 0.4s;
-  z-index: 9999;
+  z-index: 3;
 }
 
 .mobile-nav__icon {
@@ -192,7 +192,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 1;
   height: 0;
   opacity: 1;
   transition: 0.5s;
