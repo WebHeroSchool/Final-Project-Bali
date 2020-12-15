@@ -60,7 +60,7 @@
 
 .info {
   height: 53vh;
-  flex: 0,5;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +124,6 @@
 
 .pic__img-gates {
   height: 233px;
-
 }
 
 .pic__img-field {
@@ -132,7 +131,7 @@
 }
 
 .pic__img-temple,
-.pic__img-gates, {
+.pic__img-gates {
   margin-left: 19px;
 }
 
@@ -231,34 +230,34 @@
   display: none;
 }
 
-.mobile-nav__checkbox:checked ~ .mobile-nav__nav {
+.mobile-nav__checkbox:checked~.mobile-nav__nav {
   opacity: 1;
 }
 
-.mobile-nav__checkbox:checked ~ .mobile-nav__container {
+.mobile-nav__checkbox:checked~.mobile-nav__container {
   height: 100%;
 }
 
-.mobile-nav__checkbox:checked ~ .mobile-nav__btn {
+.mobile-nav__checkbox:checked~.mobile-nav__btn {
   margin-right: 79px;
 }
 
-.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
+.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon {
   background: transparent;
 }
 
-.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before,
-.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
+.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::before,
+.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::after {
   top: 0;
 }
 
-.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
+.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::after {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   background-color: #172f27;
 }
 
-.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before {
+.mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::before {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   background-color: #172f27;
@@ -610,7 +609,6 @@
 }
 
 @media (max-width: 1050px) {
-
   .logo {
     width: 91px;
     height: 35px;
@@ -739,13 +737,13 @@
 }
 
 @media (max-width: 675px) {
-  .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
+  .mobile-nav__checkbox:checked~.mobile-nav__btn {
     margin-right: 22px;
   }
 }
 
 @media (max-width: 550px) {
-  .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
+  .mobile-nav__checkbox:checked~.mobile-nav__btn {
     margin-right: 0;
   }
 }
