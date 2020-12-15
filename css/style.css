@@ -1,27 +1,23 @@
 .wrap {
   background: url(../img/background.png) no-repeat;
   background-size: cover;
-  background-position: top;
-  height: 100vh;
+  height: 87.4vh;
   margin: 0 auto;
-  font-family: "MuseoSansCyrl", "PT Serif", sans-serif;
+  font-family: "MuseoSansCyrl", sans-serif;
   max-width: 1920px;
-  min-height: 375px;
-  overflow: hidden;
+  min-width: 375px;
 }
 
 .logo {
-  width: 146.18px;
-  height: 54.84px;
-  margin-right: 91px;
+  width: 91.18px;
+  height: 32.84px;
+  margin-left: 110px;
 }
 
 .header {
-  font-family: "MuseoSansCyrl", sans-serif;
-  font-weight: 700;
+  width: 85%;
+  height: 149px;
   margin: 0 auto;
-  max-width: 90%;
-  height: 21.5vh;
   display: flex;
   align-items: center;
 }
@@ -33,23 +29,24 @@
 }
 
 .stumb {
-  flex: 1;
+  flex: 2;
 }
 
 .desktop-nav {
-  flex: 1;
+  flex: 2;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  margin-right: 68px;
 }
 
 .desktop-nav__item {
   text-decoration: none;
   color: #fff;
-  font-weight: 700;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 15px;
   cursor: pointer;
   transition: color 2s ease-out;
-  padding: 0 19px;
+  padding: 0 10px;
   white-space: nowrap;
 }
 
@@ -62,51 +59,52 @@
 }
 
 .info {
-  flex: 1;
+  height: 53vh;
+  flex: 0,5;
   display: flex;
-  justify-content: space-around;
-  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .info__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-  align-items: center;
+  max-width: 375px;
+  margin-left: 40px;
 }
 
 .info__img {
   background: url(../img/Bali.png) no-repeat;
-  background-size: 95%;
-  height: 185px;
+  background-size: 77%;
+  height: 156px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-bottom: 49px;
+}
+
+.info__subtitle {
+  width: 288px;
+  margin-right: 33px;
 }
 
 .info__text {
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 14px;
   color: #f8eee4;
   margin: 25px 0;
-  max-width: 400px;
+  max-width: 355px;
 }
 
 .info__btn {
   font-weight: 700;
-  width: 293.76px;
-  height: 61.88px;
+  width: 182px;
+  height: 39px;
   background: #d4bea3;
   border-radius: 48px;
-  font-size: 22px;
+  font-size: 13px;
   color: #fff;
   cursor: pointer;
   border: none;
   transition: background 1s ease-out;
   outline: none;
-  margin-right: 310px;
 }
 
 .info__btn:hover {
@@ -114,24 +112,28 @@
 }
 
 .pic {
+  flex: 1;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 18px;
 }
 
 .pic__img-temple {
-  height: 410px;
+  height: 263px;
 }
 
 .pic__img-gates {
-  height: 370px;
-  margin-right: 25px;
-  margin-left: 25px;
+  height: 233px;
+
 }
 
 .pic__img-field {
-  height: 370px;
+  height: 238px;
+}
+
+.pic__img-temple,
+.pic__img-gates, {
+  margin-left: 19px;
 }
 
 .mobile-nav {
@@ -327,7 +329,6 @@
   .logo {
     width: 105px;
     height: 42px;
-    margin-right: 27px;
   }
 
   .wrap-logo {
@@ -355,7 +356,7 @@
 
   .info__text {
     margin: 0 42px 28px 0;
-    font-size: 16px;
+    font-size: 14px;
     width: 401px;
   }
 
@@ -517,7 +518,7 @@
   }
 
   .desktop-nav {
-    margin-left: 128px;
+    margin-left: 110px;
   }
 
   .info__img {
@@ -539,7 +540,7 @@
     width: 236.76px;
     height: 48.88px;
     font-size: 20px;
-    margin-right: 216px;
+    margin-left: 14px;
   }
 
   .pic {
@@ -565,8 +566,7 @@
 
 @media (max-width: 1100px) {
   .header {
-    margin-bottom: 83px;
-    margin-top: 0;
+    margin-bottom: 1px;
   }
 
   .desktop-nav__item {
@@ -610,18 +610,14 @@
 }
 
 @media (max-width: 1050px) {
-  .header {
-    margin-bottom: 33px;
-  }
 
   .logo {
-    width: 105px;
-    height: 45px;
-    margin-right: 65px;
+    width: 91px;
+    height: 35px;
   }
 
   .desktop-nav__item {
-    padding: 0 11px;
+    padding: 0 7px;
   }
 
   .info__content {
@@ -631,16 +627,19 @@
 
   .info__img {
     height: 170px;
+    margin-top: 55px;
   }
 
   .info__subtitle {
-    width: 330px;
+    width: 289px;
+    margin-right: 78px;
+    margin-bottom: 12px;
   }
 
   .info__btn {
-    width: 207.76px;
-    font-size: 16px;
-    margin-right: 210px;
+    width: 183px;
+    height: 39px;
+    font-size: 14px;
   }
 
   .pic {
@@ -648,20 +647,20 @@
   }
 
   .pic__img-temple {
-    height: 270px;
-    padding-top: 13px;
+    height: 260px;
+    padding-top: 29px;
   }
 
   .pic__img-gates {
-    height: 260px;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: -14px;
+    height: 230px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-bottom: -6px;
   }
 
   .pic__img-field {
-    height: 270px;
-    margin-bottom: -14px;
+    height: 230px;
+    margin-bottom: -20px;
   }
 }
 
@@ -724,10 +723,6 @@
   .mobile-nav__item {
     font-size: 41px;
     padding: 19px;
-  }
-
-  .logo {
-    margin-right: 0;
   }
 }
 
